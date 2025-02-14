@@ -16,3 +16,6 @@ https://101workbook.org/
 
 Foundation Models in Bioinformatics:
 https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwaf028/7979309
+
+
+دکتر کرامتی:https://www.youtube.com/@EKgenetics/playlists و https://t.me/EKgenetics
