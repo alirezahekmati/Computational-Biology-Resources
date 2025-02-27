@@ -1,0 +1,63 @@
+After installing WSL
+
+You need to install packages directly inside it as well.
+here are some commands you need
+# Update package lists
+sudo apt update
+
+# Install build essentials (compiler, make, etc.)
+sudo apt install -y build-essential
+
+sudo apt update && sudo apt upgrade -y
+
+
+# Install Git for version control
+sudo apt install -y git
+
+# Configure Git (replace with your info)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+
+sudo apt install -y curl wget
+
+# Install using nvm (recommended for flexibility)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+# Reload shell configuration
+source ~/.bashrc
+
+# Install latest LTS version
+nvm install --lts
+
+
+
+# Install Python 3 and development headers
+sudo apt install -y python3 python3-pip python3-dev
+
+# Install virtual environment tool
+sudo apt install -y python3-venv
+
+
+
+# Install ZSH (better than bash)
+sudo apt install -y zsh
+
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# Install Vim
+sudo apt install -y vim
+
+# Install Neovim (modern Vim)
+sudo apt install -y neovim
+
+sudo apt install -y nano
+
+# Various useful command-line tools
+sudo apt install -y curl wget jq htop tldr ripgrep fd-find unzip
+
+
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep_14.1.0-1_amd64.deb
+sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
